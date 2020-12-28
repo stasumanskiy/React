@@ -1,0 +1,23 @@
+.todo-list-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.todo-list-item.done .todo-list-item__text {
+	text-decoration: line-through;
+}
+
+.todo-list-item.important .todo-list-item__text {
+	font-weight: bold;
+	color: steelblue;
+}
+
+.todo-list-item__text {
+	cursor: pointer;
+}
+
+
+.todo-list-item__btn .btn {
+	min-width: 31px;
+}

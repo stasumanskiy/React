@@ -1,0 +1,13 @@
+.item-add-form {
+	display: flex;
+	align-items: center;
+}
+
+.item-add-form input {
+	flex: 1 1 100%;
+	margin-right: 5px;
+}
+
+.item-add-form .btn-group {
+	white-space: nowrap;
+}

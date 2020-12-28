@@ -1,0 +1,7 @@
+.list {
+	margin-bottom: 10px;
+}
+
+.list__item {
+	padding: 0.25rem .75rem ;
+}
